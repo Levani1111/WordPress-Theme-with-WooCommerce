@@ -11289,3 +11289,25 @@ header {
 header .logo {
   width: 150px;
 }
+header .top-menu {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 992px) {
+  header .top-menu {
+    display: flex;
+  }
+}
+header li {
+  list-style-type: none;
+}
+header li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

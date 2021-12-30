@@ -6,4 +6,27 @@ header {
     .logo {
         width: 150px;
     }
+
+    .top-menu {
+        display: none;
+        @media screen and (min-width: 992px) {
+            display: flex;
+        }
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+
+        a {
+            display: block;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: $dark;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+    }
 }
