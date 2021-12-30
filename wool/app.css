@@ -11311,3 +11311,12 @@ header li a {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+#hero {
+  height: 550px;
+  width: 100%;
+  background-image: url("images/hero.jpeg");
+}
+#hero h1, #hero .h1 {
+  color: #fff;
+}
