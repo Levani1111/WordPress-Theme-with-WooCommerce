@@ -12,6 +12,7 @@
 
 <header>
     <div class="container">
+        <img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="img-fluid logo" alt="">
 
     </div>
 </header>
