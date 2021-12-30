@@ -11320,3 +11320,7 @@ header li a {
 #hero h1, #hero .h1 {
   color: #fff;
 }
+
+.main-container {
+  padding: 2rem 0;
+}
