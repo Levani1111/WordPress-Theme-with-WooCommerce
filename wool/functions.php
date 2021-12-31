@@ -32,3 +32,16 @@ register_nav_menus(
 
 // Add image sizes
 add_image_size('post_imge', 1500, 750, true);
+
+// Add widget locations
+register_sidebar(
+    array(
+        'name' => 'Page Sidebar',
+        'id' => 'page-sidebar',
+        'class' => '',
+        'before_widget' => '<div class="widget">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'
+    )
+);
