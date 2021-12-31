@@ -36,8 +36,18 @@ add_image_size('post_imge', 1500, 750, true);
 // Add widget locations
 register_sidebar(
     array(
-        'name' => 'Page Sidebar',
+        'name' => 'Page Sidebar', // pages sidebar
         'id' => 'page-sidebar',
+        'class' => '',
+        'before_title' => '<h5>',
+        'after_title' => '</h5>'
+    )
+);
+
+register_sidebar(
+    array(
+        'name' => 'Blog Sidebar', // blog sidebar
+        'id' => 'blog-sidebar',
         'class' => '',
         'before_title' => '<h5>',
         'after_title' => '</h5>'
