@@ -4,15 +4,29 @@
 @import 'header';
 
 #hero {
+    height: 300px;
+    @media screen and (min-width:1200px) {
+       height: 550px;
+    }
+    @media screen and (min-width:768px) {
+        height: 450px;
+     }
     height: 550px;
     width: 100%;
     background-image: url('images/hero.jpeg');
+    background-size: cover;
 
     h1 {
         color: $light;
     }
 }
 
-.main-container {
+.content {
     padding: 2rem 0;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background: #f0f0f0;
 }

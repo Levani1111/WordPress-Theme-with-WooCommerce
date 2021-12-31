@@ -9,13 +9,18 @@
 </head>
 <body <?php body_class('test');?>>
 
-
 <header>
-    <div class="container d-flex align-items-center justify-content-between">
-        <img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="img-fluid logo" alt="">
-            <?php wp_nav_menu(array(
-                'theme_location' => 'top-menu',
-                'menu_class' => 'top-menu'
-            )); ?>
+    <div class="container">
+        <div class="roe">
+            <div class="col d-flex align-items-center justify-content-between">
+                <a href="<?php bloginfo('url'); ?>">
+                     <img src="<?php bloginfo('template_url'); ?>/images/logo.png" class="img-fluid logo" alt="">
+                </a>
+                <?php wp_nav_menu(array(
+                    'theme_location' => 'top-menu',
+                    'menu_class' => 'top-menu'
+                )); ?>
+            </div>
+        </div>
     </div>
 </header>
