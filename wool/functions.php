@@ -39,9 +39,7 @@ register_sidebar(
         'name' => 'Page Sidebar',
         'id' => 'page-sidebar',
         'class' => '',
-        'before_widget' => '<div class="widget">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4>',
-        'after_title' => '</h4>'
+        'before_title' => '<h5>',
+        'after_title' => '</h5>'
     )
 );
