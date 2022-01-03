@@ -53,3 +53,10 @@ register_sidebar(
         'after_title' => '</h5>'
     )
 );
+
+// Declaring WooCommerce Support
+function add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+add_action( 'after_setup_theme', 'add_woocommerce_support');
