@@ -63,7 +63,7 @@ services:
       wp theme activate wool;
       wp plugin delete hello akismet;
       wp theme delete twentyseventeen twentynineteen twentytwenty Twenty-Twenty-One;
-      wp plugin install Block-Patterns wool-contact-form advanced-custom-fields  --activate;
+      wp plugin install WooCommerce advanced-custom-fields  --activate;
       wp plugin activate --all;
       wp widget reset --all;
       wp option update timezone_string "America/New_York";
