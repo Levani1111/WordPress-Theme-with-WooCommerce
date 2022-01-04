@@ -1,4 +1,4 @@
-# WordPress Custom Theme with WooCommerce
+# WordPress Custom Theme with WooCommerce :art:
 
 ##### Requirements
 
@@ -36,8 +36,8 @@ I am using Webpack to combine my SASS and JS, but you do not have to use it if y
 - Javascript
 - WordPress
 - Docker
-- Npm
-- node.js
+- NPM
+- Node.js
 
 <hr>
 
